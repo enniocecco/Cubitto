@@ -34,9 +34,10 @@ export default function BottomTabNavigator() {
   return (
     <BottomTab.Navigator
       initialRouteName="TabOne"
+      screenOptions={{ headerShown: false }}
       tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
       <BottomTab.Screen
-        name="Server"
+        name="Streams"
         component={TabOneNavigator}
         options={{
           tabBarIcon: ({ color }) => <TabBarIcon name="cloud-download-outline" color={color} />,

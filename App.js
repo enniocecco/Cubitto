@@ -69,7 +69,7 @@ if (!loading) {
   
       <SafeAreaProvider>
         <Navigation colorScheme={colorScheme} />
-        <StatusBar />
+        <StatusBar style="light" />
       </SafeAreaProvider> 
       </AppContext.Provider>
     );
